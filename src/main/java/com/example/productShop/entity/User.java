@@ -10,6 +10,14 @@ import java.util.List;
 
 public class User {
 
+    public String getUsername() {
+        return "";
+    }
+
+    public String getPassword() {
+        return "";
+    }
+
     @Data
     @Entity
     @Table(name = "users")

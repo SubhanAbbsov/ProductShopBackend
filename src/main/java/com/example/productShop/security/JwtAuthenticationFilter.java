@@ -49,6 +49,11 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     }
 
+    private String getJWTFromRequest(HttpServletRequest request) {
+
+        return "";
+    }
+
     // Извлечение JWT из заголовка "Authorization"
     private String getJwtFromRequest(HttpServletRequest request) {
         String bearerToken = request.getHeader("Authorization"); // Чтение заголовка.
